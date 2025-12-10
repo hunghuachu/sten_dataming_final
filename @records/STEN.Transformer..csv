@@ -1,0 +1,49 @@
+
+---------------------------------------------------------
+Model: STEN | Network: Transformer | Dataset: MSL
+Runs: 5 | Time: 11-28 13.08.43
+Param,[seq_len]=10
+Param,[batch_size]=64
+Param,[epoch]=10
+Param,[lr]=1e-05
+Param,[hidden_dim]=256
+Param,[stride]=1
+Param,[alpha]=1
+Param,[beta]=1
+Note: 
+---------------------------------------------------------
+data,auroc,std,aupr,std,best_f1,std,best_p,std,best_r,std,aff_p,std,aff_r,std,vus_r_auroc,std,vus_r_aupr,std,vus_roc,std,vus_pr,std,time,Network
+MSL, 0.9950,0.0012,0.9491,0.0096,0.9142,0.0178, 0.8940,0.0269,0.9362,0.0270,0.4998,0.0102,0.8766,0.0133,0.9540,0.0011,0.8473,0.0094,0.9555,0.0011,0.8485,0.0096, Transformer
+
+
+---------------------------------------------------------
+Model: STEN | Network: Transformer | Dataset: PSM
+Runs: 5 | Time: 11-30 03.51.34
+Param,[seq_len]=10
+Param,[batch_size]=256
+Param,[epoch]=10
+Param,[lr]=1e-05
+Param,[hidden_dim]=256
+Param,[stride]=1
+Param,[alpha]=1
+Param,[beta]=1
+Note: 
+---------------------------------------------------------
+data,auroc,std,aupr,std,best_f1,std,best_p,std,best_r,std,aff_p,std,aff_r,std,vus_r_auroc,std,vus_r_aupr,std,vus_roc,std,vus_pr,std,time,Network
+PSM, 0.9906,0.0012,0.9695,0.0062,0.9452,0.0045, 0.9255,0.0201,0.9665,0.0163,0.5421,0.0168,0.4359,0.0190,0.9566,0.0030,0.9053,0.0056,0.9472,0.0026,0.8944,0.0049, 1194.4051, Transformer
+
+---------------------------------------------------------
+Model: STEN | Network: Transformer | Dataset: Epilepsy
+Runs: 5 | Time: 11-30 05.42.59
+Param,[seq_len]=10
+Param,[batch_size]=64
+Param,[epoch]=10
+Param,[lr]=1e-05
+Param,[hidden_dim]=256
+Param,[stride]=1
+Param,[alpha]=1
+Param,[beta]=1
+Note: 
+---------------------------------------------------------
+data,auroc,std,aupr,std,best_f1,std,best_p,std,best_r,std,aff_p,std,aff_r,std,vus_r_auroc,std,vus_r_aupr,std,vus_roc,std,vus_pr,std,time,Network
+Epilepsy, 0.9967,0.0005,0.9863,0.0027,0.9786,0.0088, 0.9582,0.0168,1.0000,0.0000,0.5845,0.0329,0.8025,0.0331,0.9636,0.0009,0.9391,0.0017,0.9659,0.0007,0.9429,0.0017, 902.5005, Transformer

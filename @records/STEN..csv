@@ -1,0 +1,165 @@
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-27 12.23.00
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-27 12.24.30
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-27 12.56.47
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-27 13.18.55
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: Epilepsy, 5runs, 11-27 13.20.57
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+data, auroc, std, aupr, std, best_f1, std, best_p, std, best_r, std, aff_p, std, aff_r, std, vus_r_auroc, std, vus_r_aupr, std, vus_roc, std, vus_pr, std, time, model
+Epilepsy, 0.9965, 0.0013, 0.9848, 0.0055, 0.9796, 0.0047, 0.9600, 0.0090, 1.0000, 0.0000, 0.5720, 0.0325, 0.8079, 0.0318, 0.9641, 0.0010, 0.9380, 0.0050, 0.9659, 0.0011, 0.9410, 0.0053, 576.8, STEN, {'seq_len': 10, 'batch_size': 64, 'epoch': 10, 'lr': 1e-05, 'hidden_dim': 256, 'stride': 1, 'alpha': 1, 'beta': 1} 
+data, auroc, std, aupr, std, best_f1, std, best_p, std, best_r, std, aff_p, std, aff_r, std, vus_r_auroc, std, vus_r_aupr, std, vus_roc, std, vus_pr, std, time, model
+MSL, 0.9955, 0.0006, 0.9543, 0.0058, 0.9145, 0.0126, 0.8979, 0.0151, 0.9329, 0.0336, 0.5054, 0.0197, 0.8926, 0.0072, 0.9537, 0.0002, 0.8509, 0.0031, 0.9555, 0.0006, 0.8528, 0.0051, 1125.9, STEN, {'seq_len': 10, 'batch_size': 64, 'epoch': 10, 'lr': 1e-05, 'hidden_dim': 256, 'stride': 1, 'alpha': 1, 'beta': 1} 
+
+---------------------------------------------------------
+model: STEN, dataset: PSM, 5runs, 11-28 06.08.34
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  256
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: Threshold : 0.49032450613568174
+---------------------------------------------------------
+data, auroc, std, aupr, std, best_f1, std, best_p, std, best_r, std, aff_p, std, aff_r, std, vus_r_auroc, std, vus_r_aupr, std, vus_roc, std, vus_pr, std, time, model
+PSM, 0.9975, 0.0002, 0.9949, 0.0004, 0.9777, 0.0019, 0.9756, 0.0060, 0.9800, 0.0048, 0.5333, 0.0112, 0.6941, 0.0083, 0.9732, 0.0010, 0.9567, 0.0025, 0.9658, 0.0007, 0.9445, 0.0018, 643.8, STEN, {'seq_len': 10, 'batch_size': 256, 'epoch': 10, 'lr': 1e-05, 'hidden_dim': 256, 'stride': 1, 'alpha': 1, 'beta': 1} 
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-28 07.52.20
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: PSM, 5runs, 11-28 07.56.22
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  256
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-28 08.24.31
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-28 08.27.24
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-28 08.28.52
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+
+---------------------------------------------------------
+model: STEN, dataset: MSL, 5runs, 11-28 08.32.06
+Parameters,	 [seq_len], 		  10
+Parameters,	 [batch_size], 		  64
+Parameters,	 [epoch], 		  10
+Parameters,	 [lr], 		  1e-05
+Parameters,	 [hidden_dim], 		  256
+Parameters,	 [stride], 		  1
+Parameters,	 [alpha], 		  1
+Parameters,	 [beta], 		  1
+Note: 
+---------------------------------------------------------
+LSTM
+data, auroc, std, aupr, std, best_f1, std, best_p, std, best_r, std, aff_p, std, aff_r, std, vus_r_auroc, std, vus_r_aupr, std, vus_roc, std, vus_pr, std, time, model
+PSM, 0.9976, 0.0001, 0.9951, 0.0003, 0.9770, 0.0016, 0.9733, 0.0070, 0.9809, 0.0059, 0.5380, 0.0186, 0.7014, 0.0140, 0.9727, 0.0005, 0.9553, 0.0014, 0.9660, 0.0008, 0.9446, 0.0016, 466.8, STEN, {'seq_len': 10, 'batch_size': 256, 'epoch': 10, 'lr': 1e-05, 'hidden_dim': 256, 'stride': 1, 'alpha': 1, 'beta': 1} 
