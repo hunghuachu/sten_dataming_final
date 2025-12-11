@@ -34,18 +34,17 @@ data/
         ...
     ...
 ```
-2. Train and evaluate. To run the model in the paper, run this command:
-```bash
-python main.py --model STEN --runs $runs --data $data
-```
-We also provide the experiment scripts of all benchmarks under the folder ```./scripts```. You can reproduce the experiment results as follows:
-```bash
-bash ./scripts/PSM.sh
-bash ./scripts/MSL.sh
-bash ./scripts/SMAP.sh
-bash ./scripts/Epilepsy.sh
-bash ./scripts/DSADS.sh
-```
+2. To run the model with a specific network backbone, use the `--net` argument. The available choices are **GRU** (default), **LSTM**, or **Transformer**.
+
+* **Example (Using Transformer backbone):**
+    ```bash
+    python main.py --model STEN --runs 5 --dataset Epilepsy --net Transformer
+    ```
+* **Example (Using default GRU backbone):**
+    ```bash
+    python main.py --model STEN --runs 5 --dataset SMAP --net GRU
+    ```
+
 
 ## Acknowledgement
 We appreciate the following github repos a lot for their valuable code:
